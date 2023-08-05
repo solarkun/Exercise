@@ -1,0 +1,455 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ======NAV===== */
+
+nav {
+    padding: 0.5rem 0 0.2rem;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav > i {
+    display: none !important;
+}
+
+nav>div.main-logo {
+    width: 5%;
+}
+
+nav>div.main-logo>a {
+    padding: 0;
+}
+
+nav>.slide a {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* =====SECTION  1===== */
+
+section#page1 {
+    width: 100vw;
+    height: 100vh;
+    background: url(../background1_files/entrepreneur-593358_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* =====WRAPPER===== */
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.demo {
+    color: #fff;
+    padding-bottom: 3rem;
+}
+
+/* ==JOBS== */
+
+.jobs {
+    color: #fff;
+    padding-right: 3rem;
+    border-right: 1px solid #fff;
+}
+
+.job {
+    width: 200px;
+    background-color: #d6544a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.job+.job {
+    margin-top: 0.5rem;
+}
+
+.job:hover {
+    cursor: pointer;
+    background-color: #fd6459;
+}
+
+/* ==CONTENT== */
+
+.content {
+    padding-left: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content h1 {
+    font-size: 3rem;
+}
+
+.content h2 {
+    font-size: 2rem;
+}
+
+.rate {
+    padding: 0.5rem 0 0;
+    text-align: center;
+}
+
+.rate+.rate {
+    padding-left: 2rem;
+}
+
+.wrapper>h1 {
+    padding: 3rem 0 0 0;
+    font-size: 1.6rem;
+    color: #f21707;
+}
+
+
+/* ===CITYS=== */
+
+.citys {
+    justify-content: space-around;
+    padding: 3rem 1rem;
+}
+
+.city {
+    width: 10%;
+}
+
+/* =====SECTION 2===== */
+
+
+ .vieclam {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vieclam > div {
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.vieclam > div > div {
+    width: 49.5%;
+    color: #fff;
+}
+
+.vieclam>div>div.noidung {
+    background-color: #3a3a7d;
+    padding: 4rem;
+    text-align: justify;
+}
+
+.vieclam>div>div.noidung h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.vieclam>div>div.noidung p {
+    line-height: 1.7rem;
+}
+
+.vieclam>div:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.vieclam .btn {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #fff;
+    margin-top: 2rem;
+}
+
+.vieclam .btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* =====SECTION 3===== */
+
+#page3 {
+    margin-top: 1rem;
+    background-color: #3a3a7d;
+}
+
+.about div {
+    color: #fff;
+}
+
+.about .content {
+    padding: 3rem;
+}
+
+.about .content h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.about .content p {
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 1.2rem;
+
+}
+
+/* =====FOOTER===== */
+
+footer {
+    color: #fff;
+    margin-top: 1rem;
+    background-image: url(https://hdqwalls.com/download/nature-background-2560x1440.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+footer h2 {
+    padding-bottom: .5rem;
+}
+
+.f5 {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background: rgba(19, 5, 50, 0.7);
+}
+
+.f5 >div {
+    width: 30%;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer span {
+  display: block;
+  font-size: 14px;
+}
+
+.footer-regis span {
+    display: inline-block;
+    min-width: 60px;
+}
+
+.type {
+    padding: 0.5rem 0;
+}
+
+.type > input {
+    outline: none;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+}
+
+.footer-regis {
+    position: relative;
+}
+
+.submit {
+    background: transparent;
+    color: #fff;
+    padding: 0.5rem;
+    border: 2px solid #ffffff;
+    position: absolute;
+    right: 35px;
+    bottom: 20px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.submit:hover {
+    cursor: pointer;
+    border: 2px solid #3a3a7d;
+}
+
+/* NONE */
+
+.cover {
+    display: none;
+}
+
+
+@media screen and (max-width: 700px) {
+    /* ======NAV===== */
+
+
+    nav {
+        flex-direction: column;
+        display: none ;
+        padding: 1rem 0;
+    }
+
+    nav > i {
+        display: block !important;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        padding: 10px;
+        font-size: 2.2rem;
+    }
+
+    nav>div.main-logo {
+        width: 30%;
+    }
+
+    nav>div.main-logo>a {
+        padding: 10px;
+    }
+
+    nav > .slide {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .search-input {
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+
+
+    /* ==MAIN MENU== */
+
+    ul.main-menu {
+        flex-direction: column;
+    }
+
+    /* =====SECTION  1===== */
+
+    section#page1 {
+        background-size: cover;
+       background-position: 50%;
+    }
+
+    .wrapper>h1 {
+        padding: 2rem 0 0 0;
+    }
+
+    /* =====WRAPPER===== */
+
+    .demo {
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+        height: 45%;
+        justify-content: space-evenly;
+    }
+
+    .demo  h1 {
+        padding-bottom: 1rem;
+    }
+
+    .content > h2 {
+        padding-bottom: 1rem;
+    }
+
+    /* ==JOBS== */
+
+    .jobs {
+        padding-right: 0;
+        border-right: none;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+
+    /* ==CONTENT== */
+
+    .content {
+        padding: 1rem 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content h2 {
+        font-size: 1.7rem;
+    }
+
+    .rates {
+        justify-content: space-between;
+    }
+
+    .rate h2,
+    h3 {
+        font-size: 1rem;
+    }
+
+    /* ===CITYS=== */
+
+    .citys {
+        justify-content: space-around;
+        padding: 3rem 1rem;
+    }
+
+    .city {
+        width: 33%;
+    }
+
+    /* =====SECTION 2===== */
+
+    .vieclam {
+        flex-direction: column;
+    }
+    
+    .vieclam > div  {
+        margin-top: 0;
+        flex-direction: column-reverse;
+    }
+
+    .vieclam > div > div {
+        width: 100%;
+    }
+
+    .vieclam>div:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .vieclam>div>div.noidung {
+        padding: 2rem;
+    }
+
+    /* =====FOOTER===== */
+    .f5 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .f5>div {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .type {
+        text-align: justify;
+    }
+
+    .submit {
+        right: 35px;
+        bottom: 50px;
+    }
+}

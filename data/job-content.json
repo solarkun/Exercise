@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Nhân viên phân tích dữ liệu",
+        "noidung": "Đối với ngành công nghệ thông tin thì việc phân tích dữ liệu là rất cần thiết. Vị trí này thực hiện công việc thu thập, sắp xếp dữ liệu cũng như nghiên cứu để đưa ra các hệ thống cơ sở dữ liệu thông tin dễ dàng, chuẩn nhất đảm bảo chất lượng công việc và các dữ liệu cần có tính bảo mật.",
+        "img": "student-849825_1280.jpg",
+        "alt": "background",
+        "btn": "Tìm việc"
+    },
+    {
+        "name": "Lập trình viên",
+        "noidung": "Lập trình viên với nhiệm vụ sử dụng ngôn ngữ lập trình khác nhau để tạo nên các phần mềm máy tính. Tùy thuộc vào yêu cầu của doanh nghiệp lập trình viên sẽ có công việc cụ thể riêng. Những chương trình được lập trình cần được kiểm tra và đưa vào thực tế nhằm đem lại kết quả làm việc hiệu quả nhất.",
+        "img": "desk-593327_640.jpg",
+        "alt": "background",
+        "btn": "Tìm việc"
+    },
+    {
+        "name": "Kỹ sư phần mềm",
+        "noidung": "Đối với vị trí kỹ sư phần mềm trong ngành IT thường làm việc cho các công ty điện tử, viễn thông, CNTT. Công việc cũng tương tự với nhân viên lập trình nhưng tập trung vào các ứng dụng kỹ thuật và thiết kế để viết ra những chương trình thích hợp đáp ứng nhu cầu công việc thực tế tốt nhất.",
+        "img": "computer-2982270_640.jpg",
+        "alt": "background",
+        "btn": "Tìm việc"
+    },
+    {
+        "name": "Thiết kế web/dịch vụ Internet",
+        "noidung": "Đây cũng là một vị trí trong ngành IT, các bạn học công nghệ thông tin có thể trở thành một nhân viên thiết kế web cho các nhà sản xuất phần mềm hay các công ty thiết web. Bạn là người thực hiện việc thiết kế cũng như tạo các trang web, đưa ra những liên kết và thử nghiệm thiết kế đáp ứng mọi yêu cầu của khách hàng.",
+        "img": "teamwork-3213924_640.jpg",
+        "alt": "background",
+        "btn": "Tìm việc"
+    }
+]
